@@ -1,9 +1,15 @@
-import Head from 'next/head'
+import { Fragment } from "react";
+import Head from "next/head";
+import Hero from "../components/home/hero";
 
 export default function Home() {
   return (
-    <div>
-      test
-    </div>
-  )
+    <Fragment>
+      <Head>
+        <title>Haruyasu Kaitori</title>
+        <meta name="description" content="ポートフォリオ" />
+      </Head>
+      <Hero />
+    </Fragment>
+  );
 }
