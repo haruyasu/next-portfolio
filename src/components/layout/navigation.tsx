@@ -1,8 +1,9 @@
-import Link from "next/link";
+import Link from 'next/link'
+import { ReactElement } from 'react'
 
-function Navigation() {
+export default function Navigation(): ReactElement {
   return (
-    <header className="container max-w-screen-xl mx-auto flex py-5 flex-row items-center px-5">
+    <header className="container flex flex-row items-center mx-auto px-5 py-5 max-w-screen-xl">
       <Link href="/">
         <a>
           <img
@@ -22,7 +23,5 @@ function Navigation() {
         </Link>
       </nav>
     </header>
-  );
+  )
 }
-
-export default Navigation;

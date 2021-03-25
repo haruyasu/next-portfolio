@@ -1,9 +1,10 @@
-import Head from "next/head";
+import '../styles/globals.css'
 
-import "../styles/globals.css";
-import Layout from "../components/layout/layout";
+import Head from 'next/head'
 
-function MyApp({ Component, pageProps }) {
+import Layout from '../components/layout/layout'
+
+function MyApp({ Component, pageProps }: any) {
   return (
     <Layout>
       <Head>
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Component {...pageProps} />
     </Layout>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

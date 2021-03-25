@@ -1,6 +1,7 @@
+import { ReactElement } from 'react'
 // import Image from "next/image";
 
-function Hero() {
+export default function Hero(): ReactElement {
   return (
     <section>
       <div className="relative mb-5">
@@ -11,7 +12,7 @@ function Hero() {
           height={500}
         />
         <div className="absolute bottom-10 left-10 text-white font-bold">
-          <h1 className="text-7xl mb-3">HARUYASU KAITORI</h1>
+          <h1 className="mb-3 text-7xl">HARUYASU KAITORI</h1>
           <h2 className="text-4xl">PROGRAMMING INSTRUCTOR</h2>
         </div>
       </div>
@@ -24,7 +25,5 @@ function Hero() {
         />
       </div>
     </section>
-  );
+  )
 }
-
-export default Hero;
