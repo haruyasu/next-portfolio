@@ -18,6 +18,9 @@ export default function Navigation(): ReactElement {
         <Link href="/about">
           <a className="mr-5">About</a>
         </Link>
+        <Link href="/lesson">
+          <a className="mr-5">Lesson</a>
+        </Link>
         <Link href="/contact">
           <a>Contact</a>
         </Link>
