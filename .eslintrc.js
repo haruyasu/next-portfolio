@@ -76,12 +76,6 @@ module.exports = {
           { caseSensitive: false }
         ]
       }
-    },
-    {
-      files: ['*.stories.tsx'],
-      rules: {
-        '@typescript-eslint/consistent-type-assertions': 'off'
-      }
     }
   ]
 }

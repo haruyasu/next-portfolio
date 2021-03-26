@@ -3,7 +3,7 @@ import { ReactElement } from 'react'
 
 export default function Hero(): ReactElement {
   return (
-    <section>
+    <div>
       <div className="relative mb-5">
         <img
           src="https://placehold.jp/1280x500.png"
@@ -50,6 +50,6 @@ export default function Hero(): ReactElement {
           <p className="leading-relaxed">Products</p>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

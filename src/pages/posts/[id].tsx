@@ -27,29 +27,40 @@ export default function PostData({ post }: PostProps) {
         />
       </div>
       <div className="flex flex-col mt-10 sm:flex-row">
-        <div className="text-center sm:pr-8 sm:py-8 sm:w-1/3">
-          <div className="inline-flex items-center justify-center w-20 h-20 text-gray-400 bg-gray-200 rounded-full">
-            <svg
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-10 h-10"
-              viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
-          <div className="flex flex-col items-center justify-center text-center">
-            <h2 className="title-font mt-4 text-gray-900 text-lg font-medium">
-              Phoebe Caulfield
-            </h2>
-            <div className="mb-4 mt-2 w-12 h-1 bg-indigo-500 rounded"></div>
-            <p className="text-base">
-              Raclette knausgaard hella meggs normcore williamsburg enamel pin
-              sartorial venmo tbh hot chicken gentrify portland.
-            </p>
+        <div className="px-4 py-8 lg:w-1/3">
+          <div className="flex items-start h-full">
+            <div className="flex flex-col flex-shrink-0 w-12 text-center leading-none">
+              <span className="mb-2 pb-2 text-gray-500 border-b-2 border-gray-200">
+                Jul
+              </span>
+              <span className="title-font text-gray-800 text-lg font-medium leading-none">
+                18
+              </span>
+            </div>
+            <div className="flex-grow pl-6">
+              <h2 className="title-font mb-1 text-indigo-500 text-xs font-medium tracking-widest">
+                CATEGORY
+              </h2>
+              <h1 className="title-font mb-3 text-gray-900 text-xl font-medium">
+                The 400 Blows
+              </h1>
+              <p className="mb-5 leading-relaxed">
+                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                microdosing tousled waistcoat.
+              </p>
+              <a className="inline-flex items-center">
+                <img
+                  alt="blog"
+                  src="https://dummyimage.com/103x103"
+                  className="flex-shrink-0 w-8 h-8 rounded-full object-cover object-center"
+                />
+                <span className="flex flex-col flex-grow pl-3">
+                  <span className="title-font text-gray-900 font-medium">
+                    チュートリアル教材
+                  </span>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
         <div className="mt-4 pt-4 text-center border-t border-gray-200 sm:mt-0 sm:pl-8 sm:py-8 sm:w-2/3 sm:text-left sm:border-l sm:border-t-0">
