@@ -6,8 +6,8 @@ try {
   parserConfig = {
     parser: '@typescript-eslint/parser',
     parserOptions: {
-      project: './tsconfig.json',
-    },
+      project: './tsconfig.json'
+    }
   }
 } catch (_) {}
 

@@ -73,12 +73,9 @@ export default function About(): ReactElement {
 
       <div className="flex flex-wrap md:flex-nowrap">
         <div className="flex flex-col flex-shrink-0 mb-6 md:mb-0 md:w-64">
-          <span className="title-font text-lg font-medium">
-            プログラミング講師
-          </span>
-          <span className="mt-1 text-gray-500 text-sm">
-            2020/01/01 - 2021/01/01
-          </span>
+          <p className="title-font text-lg font-medium">プログラミング講師</p>
+          <p className="mt-1 text-gray-500 text-sm">2020/01/01 - 2021/01/01</p>
+          <p className="mt-1 text-gray-500 text-sm">東京</p>
         </div>
         <div className="md:flex-grow">
           <h2 className="title-font mb-2 text-lg font-medium">
@@ -99,6 +96,26 @@ export default function About(): ReactElement {
           </p>
         </div>
       </div>
+
+      <h2 className="text-3xl">Education</h2>
+
+      <div className="flex flex-wrap md:flex-nowrap">
+        <div className="flex flex-col flex-shrink-0 mb-6 md:mb-0 md:w-64">
+          <p className="title-font text-lg font-medium">
+            FX TD Houdini Program
+          </p>
+          <p className="mt-1 text-gray-500 text-sm">2020/01/01 - 2021/01/01</p>
+          <p className="mt-1 text-gray-500 text-sm">東京</p>
+        </div>
+        <div className="md:flex-grow">
+          <h2 className="title-font mb-2 text-lg font-medium">
+            Lost Boys School of Visual Effects
+          </h2>
+          <p className="leading-relaxed">VFXの知識を取得</p>
+        </div>
+      </div>
+
+      <h2 className="text-3xl">Software Skills</h2>
     </div>
   )
 }
